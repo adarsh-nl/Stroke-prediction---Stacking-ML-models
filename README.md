@@ -1,31 +1,7 @@
 # Stroke-prediction---Stacking-ML-models
 
-Folder structure:
+End to end machine learning model that predicts the stroke risk using machine learning algorithms. Algorithms used are SVM, KNN, Logistic regression, Decicsion Tree and Random forest. Finally i created a model by stacking all the other models and final estimator with logistic regression.
 
-Project
-   |-- app.py
-   |   |-- java
-   |   |   |-- com
-   |   |   |   |-- foxguardsolutions
-   |   |   |   |   |-- jonavon
-   |   |   |   |   |   |-- AbstractFile.java
-   |   |   |   |   |   |-- roman
-   |   |   |   |   |   |   |-- Main.java
-   |   |   |   |   |   |   |-- Numeral.java
-   |   |   |   |   |   |   |-- RomanNumberInputFile.java
-   |   |   |   |   |   |   |-- RomanNumeralToDecimalEvaluator.java
-   |-- test
-   |   |-- java
-   |   |   |-- com
-   |   |   |   |-- foxguardsolutions
-   |   |   |   |   |-- jonavon
-   |   |   |   |   |   |-- roman
-   |   |   |   |   |   |   |-- InterpretSteps.java
-   |   |   |   |   |   |   |-- RunCukesTest.java
-   |   |-- resources
-   |   |   |-- com
-   |   |   |   |-- foxguardsolutions
-   |   |   |   |   |-- jonavon
-   |   |   |   |   |   |-- roman
-   |   |   |   |   |   |   |-- Interpret.feature
-   |   |   |-- sample-input.txt
+Dataset: https://www.kaggle.com/datasets/jillanisofttech/brain-stroke-dataset
+
+The backend code used in this project is with minor changes from @pydeveloperashish. Thanks to him.
