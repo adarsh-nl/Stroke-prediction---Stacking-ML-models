@@ -3,9 +3,10 @@
 Folder structure:
 
 Project:
-  ->app.py
-  ->input
-    ->brain_stroke.csv
+  ---app.py
+  ---input
+    |
+     ----brain_stroke.csv
   ->models
     ->model.bin
     ->scaler.pkl
